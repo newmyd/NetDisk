@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DownLoad</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" media="screen" />
+        <link rel="stylesheet" type="text/css" href="./download.css" />
+        <script src="./download.js"></script>
+        <script src="../main/jquery.js"></script>
+    </head>
+
+    <body>
+        <br />
+        <br />
+        <div class="text">
+            <a id="a" href="../index.html">NetDisk</a>
+            <br />
+            DownLoad
+        </div>
+        <br />
+        <br />
+        <form onsubmit="return download();" id="download_form" method="post" action="/download">
+            <input type="text" name="fileId" id="fileId" placeholder="File Id" class="input"> <br> <br>
+            <input type="password" id="password" name="password" placeholder="PassWord" class="input"> <br> <br>
+            <input type="submit" value="DownLoad" class="submitInput">
+            <div id="result">Please input your file id.</div>
+        </form>
+    </body>
+</html>
+

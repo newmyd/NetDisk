@@ -1,0 +1,84 @@
+.text {
+    text-align: center;
+    font-size: 75px;
+}
+
+#a {
+    text-decoration:none;
+    color: #4191f5;
+}
+
+#download_form {
+	font-size: 40px;
+    margin: 0 auto;
+	width: 400px;
+	height: 55px;
+	margin-top: 10px;
+	
+	padding-left: 5px;
+
+}
+
+.input {
+    font-size: 40px;
+    margin: 0 auto;
+	width: 400px;
+	height: 55px;
+	margin-top: 10px;
+	
+	padding-left: 5px;
+
+	border: 4px;
+    border-radius: 10px;
+    border-style:solid;
+	border-color: #4191f5;
+}
+
+.submitInput {
+	margin: 0;
+	margin-top: 15px;
+	width: 416px;
+	height: 60px;
+	
+	border-radius: 10px;
+	background-color: #4191f5;
+	border: 0;
+	
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.submitInput:hover {
+	background-color: #5eb4ff;
+}
+
+
+.input:focus{
+    outline: none;
+	border-style:solid;
+	border-color: #5eb4ff;
+}
+
+#file {
+	display: none;
+}
+
+#fileBtn {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#result {
+    font-size: 30px;
+    margin: 0 auto;
+	width: 412px;
+	height: 55px;
+	margin-top: 50px;
+	text-align: center;
+	border: 4px;
+    border-radius: 10px;
+    border-style:solid;
+	border-color: #4191f5;
+}

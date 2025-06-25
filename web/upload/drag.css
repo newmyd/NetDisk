@@ -1,0 +1,15 @@
+.drag {
+	border: 5px dashed;
+	border-radius: 10px;
+	width: 450px;
+	height: 150px;
+	font-size: 50px;
+	color: white;
+	background-color: #5eb4ff;
+	border-color: #4191f5;
+}
+
+
+.drag:hover {
+	background-color: #4191f5;
+}

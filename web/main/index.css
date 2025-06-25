@@ -1,0 +1,48 @@
+.text {
+	text-align: center;
+	font-size: 75px;
+}
+
+.upload {
+	display:inline-block;
+    margin: 0 auto;
+	margin-top: 15px;
+	height: 100px;
+	width: 450px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #4191f5;
+	border: 0;
+	
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.upload:hover {
+	background-color: #5eb4ff;
+}
+
+.download {
+	display:inline-block;
+    margin: 0 auto;
+	margin-top: 15px;
+	height: 100px;
+	width: 450px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #eeeeee;
+	border: 0;
+	
+	color: #4191f5;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.download:hover {
+	background-color: #dbdbdb;
+}
+
+#btn {
+	text-align: center;
+}
